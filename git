@@ -1,6 +1,8 @@
+#!/bin/bash
+echo "inbut commit message"
 
 read var
 
 git add .
-git commit -m "tree"
+git commit -m "${var}"
 git push
