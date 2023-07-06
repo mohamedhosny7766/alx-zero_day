@@ -1,0 +1,6 @@
+
+read var
+
+git add .
+git commit -m "tree"
+git push
